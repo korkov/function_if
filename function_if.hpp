@@ -1,3 +1,13 @@
+/*---------------------------------------------------------------------------
+ * function_if, extension for boost::function
+ * Copyright 2013 Alexander Korkov
+ *
+ * 09.09.2013 Created by Alexander Korkov <korkov@yandex.ru>
+ ----------------------------------------------------------------------------*/
+
+#ifndef FUNCTION_IF_1378730917
+#define FUNCTION_IF_1378730917
+
 #include <boost/function.hpp>
 
 namespace boost
@@ -62,3 +72,5 @@ namespace boost
     return function_if_ret<F>(f, p, r);
   }
 }
+
+#endif  // FUNCTION_IF_1378730917
